@@ -27,7 +27,7 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-image: url("img1.jpg");
+  background-image: url("../src/background.jpg");
 }
 body {
   color: #fff;
@@ -47,7 +47,6 @@ body {
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
-  background-image: image("img1.jpg");
 }
 .cover-container {
   margin-right: auto;
