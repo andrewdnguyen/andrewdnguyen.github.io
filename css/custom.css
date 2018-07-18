@@ -26,6 +26,24 @@ body{
   background-color: #990B0B;
 }
 
+.chat-form > input{
+  width: 325px;
+  height: 36px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
+.chat-form > textarea{
+  width: 325px;
+  height: 250px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+
 #loader{
   background-image: url("./src/run-load.gif");
 }
