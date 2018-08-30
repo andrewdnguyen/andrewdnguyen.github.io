@@ -44,6 +44,20 @@ body{
   border-color: transparent;
 }
 
+.plug-link{
+  margin-top:15px;
+  margin-bottom:10px;
+}
+
+.github{
+}
+
+.instagram{
+}
+
+.linkedin{
+}
+
 #loader{
   background-image: url("./src/run-load.gif");
 }

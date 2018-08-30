@@ -20,7 +20,7 @@
     <title>Andrew D. Nguyen</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="./css/cover.css" rel="stylesheet">
@@ -43,13 +43,26 @@
           <main role="main" class="inner cover">
             <h1>Map</h1>
             <h3> You can also find me on: </h3>
+            <br>
             <h5>
-            <ul style="list-style-type:none; margin-left: -35px;">
-              <li> <a href="https://www.linkedin.com/in/andrewduynguyen" target="_blank">LinkedIn</a> </li>
-              <li> <a href="https://github.com/andrewdnguyen/" target="_blank">GitHub</a> </li>
-              <li> <a href="https://www.instagram.com/andrewoid64/" target="_blank">Instagram</a> </li>
-            </ul>
+            <div class="row">
+              <div class="col-md-4 linkedin">
+               <a href="https://www.linkedin.com/in/andrewduynguyen" target="_blank"><img src="./src/linkedin.png" class="plug-link"></img></a></br>
+               <a href="https://www.linkedin.com/in/andrewduynguyen" target="_blank">LinkedIn</a>
+             </div>
+             <div class="col-md-4 github">
+               <a href="https://github.com/andrewdnguyen/" target="_blank"><img src="./src/github.png" class="plug-link"></img></a></br>
+               <a href="https://github.com/andrewdnguyen/" target="_blank">GitHub</a> </li>
+             </div>
+             <div class="col-md-4 instagram">
+               <a href="https://www.instagram.com/andrewoid64/" target="_blank"><img src="./src/instagram.png" class="plug-link"></img></a></br>
+               <a href="https://www.instagram.com/andrewoid64/" target="_blank">Instagram</a>
+             </div>
+           </div>
+           <br/>
+           <div class="container">
             <a href="index.html" class="btn btn-lg btn-secondary end-button">&lt;&lt; Go Back</a>
+          </div>
           </main>
 
           <footer class="mastfoot">
@@ -67,7 +80,7 @@
       var myVar;
 
       function myFunction() {
-          myVar = setTimeout(showPage, 1500);
+          myVar = setTimeout(showPage, 750);
       }
 
       function showPage() {
