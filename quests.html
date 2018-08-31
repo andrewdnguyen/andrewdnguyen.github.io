@@ -41,23 +41,212 @@
           </header>
 
           <main role="main" class="inner cover">
-            <h1>Quests</h1>
-            <h3> Here are some links to some of the projects I've worked on: </h3>
-            <h5>
-              <hr> <a href="https://github.com/andrewdnguyen/COGS-121-Project" target="_blank">Toxicon</a>
-              <br><br> <iframe width="375" height="200" src="https://www.youtube.com/embed/-aLDQXEoJF4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-              <hr>
-              <a href="http://stevencpan.com" target="_blank">Website for Steven Pan</a>
-              <hr>
-              <a href="http://a10-algowriter.herokuapp.com" target="_blank">Algo-Writer</a>
+            <br><br>
+            <h1>Main Quests</h1>
+            <h3> Here are some of the bigger projects I've worked on: </h3>
+
+
+              <hr> <h2><a href="https://github.com/andrewdnguyen/COGS-121-Project" target="_blank">Toxicon</a></h2>
+              <h4>
+
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="needfinding-tab" data-toggle="tab" href="#needfinding" role="tab" aria-controls="needfinding" aria-selected="true">Needfinding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="prototyping-tab" data-toggle="tab" href="#prototyping" role="tab" aria-controls="prototyping" aria-selected="false">Prototyping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="development-tab" data-toggle="tab" href="#development" role="tab" aria-controls="development" aria-selected="false">Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="final-tab" data-toggle="tab" href="#final" role="tab" aria-controls="final" aria-selected="false">Completion</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="needfinding" role="tabpanel" aria-labelledby="needfinding-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                   One of the orignal goals of the Toxicon app was to tackle the problem of toxcity in online videogames. My group found that in most online encounters, many of the more toxic individuals would not consider the things they were saying to be toxic. Because of this, we wanted to create an application that could review transcriptions of in-game communications and provide both contextual and emotional data in order to determine whether or not someone was being toxic in their games. In order to narrow the focus of our app's purpose, we created several user scenarios depicted through storyboards such as the one below.
+                </div>
+                <br>
+                <img src="./src/Storyboard2.jpg" style="width:100%;"></img>
+              </div>
+              <div class="tab-pane fade" id="prototyping" role="tabpanel" aria-labelledby="prototyping-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                  Prior to coding our app, we used Figma to create digital mockups which featured some of the key ideas we wanted to incorporate into our final product. In the end, two full mockups were created each with a different approach on how we wanted to tackle toxicity. Both mockups had elements that were either used or discarded over the course of our design process and many ideas never came to fruition. For example, one idea that was pitched early on included a version in which we would have users rate the toxcicity of other users, however, we found that method to be too subjective and thus decided to rely on AI for the task rather than people.
+                </div>
+                <br>
+                <img src="./src/p2Upload.png" style="width:100%;"></img><br><br>
+                A full verion of one of the Figma mockups can be found <a style="text-decoration: underline;" href="https://www.figma.com/file/ENpEtBYcPrHMpua7Z32S3S3X/COGS121?node-id=0%3A1" target="_blank">here.</a>
+              </div>
+              <div class="tab-pane fade" id="development" role="tabpanel" aria-labelledby="devlopment-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                  Our app was created with a Node.js backend which interacted with the IBM Watson Speech-to-Text and Natural Language Understanding APIs in order to provide contextual and emotional analysis on inputted text or audio data. SQLite was used to store our data for manipulations which could be visualized through Plotly and our frontend was built through HTML, CSS, and jQuery.
+                </div>
+                <br>
+                <img src="./src/emotion-pie-chart.png" style="width:100%;"></img>
+              </div>
+              <div class="tab-pane fade" id="final" role="tabpanel" aria-labelledby="final-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                   The completed version of our app can be found on <a href="https://github.com/andrewdnguyen/COGS-121-Project" target="_blank" style="text-decoration: underline;">github</a>. In order to showcase the final product, we produced a brief 2 minute video that goes over Toxicon's purpose and functionality which can be found below. Credits to Wayne Phung and Helen Cheng for working with me on this project.
+                </div>
+                <br>
+                <iframe width="616" height="400" src="https://www.youtube.com/embed/-aLDQXEoJF4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
               <br><br>
-              <iframe width="375" height="200" src="https://www.youtube.com/embed/tS7lyIb6LJY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </h4>
               <hr>
-              <a href="#">Cognition and Cognitive Neuroscience Website (Coming Soon)</a>
+              <br>
+              <h2><a id="stevenpan" href="http://stevencpan.com" target="_blank">Website for Steven Pan</a></h2>
+              <h4>
+
+              <ul class="nav nav-tabs" id="myTab2" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="needfinding-tab" data-toggle="tab" href="#needfinding2" role="tab" aria-controls="needfinding" aria-selected="true">Needfinding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="development-tab" data-toggle="tab" href="#development2" role="tab" aria-controls="development" aria-selected="false">Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="final-tab" data-toggle="tab" href="#final2" role="tab" aria-controls="final" aria-selected="false">Completion</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="needfinding2" role="tabpanel" aria-labelledby="needfinding-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                   Steven, a graduate student at the Cognition and Cognitive Neuroscience Lab, first approached me about the idea of redesigning his own personal website after I had initially proposed a redesign of the lab's website which he was managing. He initially had a single static HTML page which acted as a CV, however, he wanted to improve his web presence and upgrade both the content and visual quality of his website.
+                </div>
+                <br>
+                <img src="./src/steven-old.png" style="width:100%;"></img>
+              </div>
+              <div class="tab-pane fade" id="development2" role="tabpanel" aria-labelledby="devlopment-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                  I worked closely with Steven throughout the whole design process, implementing any changes he requested while providing feedback on whether the changes would be tenable and/or appealing, changing my implementations to meet these criteria whenever possible. The website was built from the ground up through HTML, CSS, and a little bit of JavaScript. It did, however, utilize the Bootstrap framework to allow for more a responsive and dynamic design implementation. An older version of the website's code can be found <a href="https://github.com/andrewdnguyen/grad-student-website" target="_blank" style="text-decoration: underline;">here</a>.
+                </div>
+                <br>
+                <img src="./src/steven-new.png" style="width:100%;"></img>
+              </div>
+              <div class="tab-pane fade" id="final2" role="tabpanel" aria-labelledby="final-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                  <i>"Andrew's web design work is superb.  He has helped build two websites for me and/or my employer, one that showcases my research program/outreach and the other for a major laboratory at an R1-level university. In both cases, Andrew was instrumental in creating a modern, adaptive, and visually appealing website with innovative technical features and a slickly designed interface.  He was incredibly efficient, harnessed the latest web design tools, and the results were fantastic.  Further, throughout the design process Andrew was laser-focused on the mission requirements and exceptionally responsive to feedback.  Andrew is an excellent web designer and I cannot recommend him highly enough!"
+                  <br>- Steven C. Pan</i><br><br>
+                  I continue to work closely with Steven in maintaining and updating his personal website, which can be found <a href="http://stevencpan.com" target="_blank" style="text-decoration: underline;">here</a>. As my first experience working in a non-class setting and engaging with a real client I was able to learn a great deal on how to get my ideas across while still satisfying my client's needs. This project also opened up new opportunities by allowing me to prove my ability to the head of the Cognition and Cognitive Neuroscience Lab, Dr. Timothy Rickard, and gave me a chance at going through with redesigning <a href="#rickardlab" style="text-decoration: underline;">his lab's website</a>.
+                </div>
+                <br>
+              </div>
+            </div>
+              <br><br>
+              </h4>
+              <hr>
+              <h2><a href="http://a10-algowriter.herokuapp.com" target="_blank">Algo-Writer</a></h2>
+              <h4>
+
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="needfinding-tab" data-toggle="tab" href="#needfinding3" role="tab" aria-controls="needfinding" aria-selected="true">Prototyping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="prototyping-tab" data-toggle="tab" href="#prototyping3" role="tab" aria-controls="prototyping" aria-selected="false">User Testing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="development-tab" data-toggle="tab" href="#development3" role="tab" aria-controls="development" aria-selected="false">Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="final-tab" data-toggle="tab" href="#final3" role="tab" aria-controls="final" aria-selected="false">Completion</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="needfinding3" role="tabpanel" aria-labelledby="needfinding-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                   Algo-writer was a mobile-based webapp built by my classmates and I for an interaction design course at UCSD. The app was made with goal of helping novice programmers envision the algorithms within their programs, underwent several iterations both physical and digital throughout its design process. Many of these prototypes were used both for user testing as well for ideation. Initially, we created two paper prototypes each with a different concept on how to tackle the issue of difficulties experienced by novice programmers. Gradually, as development progressed, many ideas from both paper prototypes were incoporated into the final design. With the design completed, we used Figma to create a digital mockup of how we wanted our app to look before coding it. This digital mockup provided us with a framework to improve upon as we built towards the final product.
+                </div>
+                <br>
+                <img src="./src/paperprototype.png" style="display:block; margin-left:auto; margin-right:auto;"></img><br>
+                A verion of the digital Figma mockup can be found <a style="text-decoration: underline;" href="https://www.figma.com/file/OeSLpIvZzxzifSVbe4uAfIai/120?node-id=105%3A2" target="_blank">here.</a>
+              </div>
+              <div class="tab-pane fade" id="prototyping3" role="tabpanel" aria-labelledby="prototyping-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                  Throughout the entire development process of Algo-writer, we worked closely with our user base to improve the quality of our app. Starting from the needfinding phase, we interviewed Computer Science students at UCSD on the difficulties they had as novice programmers and from their testimony we worked to create an app that could alleviate the problems they experienced as new programmers. We conducted several in-person walkthroughs throughout the design process and had users navigate through and provide feedback on not just the final product but also through our digital and paper mockups. Once a working version of our app was published online, we were able to have several users test it simultaneously and gather data on their usage through Google Analytics.
+                </div>
+                <br>
+                <img src="./src/usertesting.png" style="width:100%;"></img><br><br>
+
+              </div>
+              <div class="tab-pane fade" id="development3" role="tabpanel" aria-labelledby="devlopment-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                  Algo-writer was built on a Node.js backend and utilized HTML Handlebars as well as the Bootstrap framework on top of vanilla HTML, CSS, and jQuery. Every iteration underwent several sessions of user testing and feedback from our user tests was used to improve as well as debug the app over time.
+                </div>
+                <br>
+                <img src="./src/iterations.png" style="width:100%;"></img>
+              </div>
+              <div class="tab-pane fade" id="final3" role="tabpanel" aria-labelledby="final-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                   A testable version of Algo-writer can be found <a href="http://algowriter.herokuapp.com" target="_blank" style="text-decoration: underline;">here</a> and the source code can be found on <a href="https://github.com/algo-writer/ixd-skeleton" target="_blank" style="text-decoration: underline;">github</a>. We also produced a minute long video that walks through the app which can be found below. Credits to Jason Ho, Ethan Cai, and Maya Bello for working with me on this project.
+                </div>
+                <br>
+                <img src="./src/algowriter.png" style="width:100%;"></img><br><br>
+                <br>
+                <iframe width="616" height="400" src="https://www.youtube.com/embed/tS7lyIb6LJY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              </div>
+            </div>
+              <br><br>
+              </h4>
+              <hr>
+              <h2><a id="rickardlab" href="#">Cognition and Cognitive Neuroscience Website </a></h2>
+              <h4>
+
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="needfinding-tab" data-toggle="tab" href="#needfinding4" role="tab" aria-controls="needfinding" aria-selected="true">Needfinding</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="prototyping-tab" data-toggle="tab" href="#prototyping4" role="tab" aria-controls="prototyping" aria-selected="false">Prototyping</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="development-tab" data-toggle="tab" href="#development4" role="tab" aria-controls="development" aria-selected="false">Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="final-tab" data-toggle="tab" href="#final4" role="tab" aria-controls="final" aria-selected="false">Completion</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="needfinding4" role="tabpanel" aria-labelledby="needfinding-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                   When I was exploring my research options at UCSD freshman year I found myself browsing through many of the websites run by labs on campus and when I saw the CCN Lab's website I immediately spotted an opportunity for change. When I joined the lab in the spring of 2017, it became my goal to have the opportunity to redesign what I believed was a well-intentioned website that simply needed a good polish.
+                </div>
+                <br>
+                <img src="./src/rickard-old.png" style="width:100%;"></img>
+              </div>
+              <div class="tab-pane fade" id="prototyping4" role="tabpanel" aria-labelledby="prototyping-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                  Over the summer of 2017, I would spend my time developing a Figma prototype of my planned redesign for the lab website. My goal was to keep the overall aesthetic of the redesign as similar to the original website as possible while adding some modern elements and features. I presented my final mockup to the lab manager at the CCN Lab, Steven Pan, in the fall of 2017 but was told a website overhaul was not being looked into at the time. After being fortunate enough to work on <a href="#stevenpan" style="text-decoration: underline;">another web project</a> I was given the opportunity to present my mockup to Dr. Timothy Rickard, who headed the CCN Lab, and I was given permission to begin work on redesigning the website over the summer of 2018.
+                </div>
+                <br>
+                <img src="./src/rickard-new.png" style="width:100%;"></img><br><br>
+                The final version of the Figma mockup can be found <a style="text-decoration: underline;" href="https://www.figma.com/file/cl9LZmHJxk1I4HBsElAc1rxG/CCN-TEST?node-id=47%3A2" target="_blank">here.</a>
+              </div>
+              <div class="tab-pane fade" id="development4" role="tabpanel" aria-labelledby="devlopment-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                Over the course of development I worked closely with both Steven Pan and Dr. Rickard to ensure that the final product would meet the standards of a reputable lab while being both aesthetically appealing and responsive across a multitude of devices. I primarily based my work on the mockup I created, but also drew further inspiration from my analysis of other lab websites. The website was built utilizing the Bootstrap framework but also with a great deal of custom HTML and CSS as well as a few lines of JavaScript.
+                </div>
+                <br>
+                <img src="./src/rickard-mobile.png" style="display:block; margin-left:auto; margin-right:auto;"></img>
+              </div>
+              <div class="tab-pane fade" id="final4" role="tabpanel" aria-labelledby="final-tab">
+                <div class="container img-responsive" style="margin-top:10px;">
+                   At the moment, the lab website is still undergoing some minor changes before being published to the web. It is expected to be completed sometime during fall of 2018.
+                </div>
+                <br>
+                <img src="./src/rickard-new2.png" style="width:100%"></img>
+              </div>
+            </div>
+              <br><br>
+              </h4>
               <hr>
               <br><br>
             <a href="index.html" class="btn btn-lg btn-secondary end-button">&lt;&lt; Go Back</a>
-          </h5>
+            <div class="container">
           </main>
           <br><br>
           <footer class="mastfoot">
@@ -67,7 +256,6 @@
 
         </div>
 
-      </div>
 
     </div>
 
