@@ -70,7 +70,6 @@ body{
 
 /**For tablets and such**/
 @media (min-width: 768px){
-
 }
 
 /**For ipads or surface tablets and such**/
@@ -79,12 +78,10 @@ body{
 
 /**For ipads or surface tablets and such**/
 @media (max-width: 992px){
-  zoom: 75%;
 }
 
 /** For laptops**/
 @media (min-width: 1200px){
-
 }
 
 
