@@ -1,0 +1,21 @@
+/**For small devices like mobile phones**/
+@media (max-width: 765px){
+html{
+  zoom: 50%;
+}
+
+}
+
+/**For tablets and such**/
+@media (min-width: 768px){
+  html{
+    zoom: 75%;
+  }
+}
+
+/**For ipads or surface tablets and such**/
+@media (min-width: 992px){
+  html{
+    zoom: 100%;
+  }
+}
