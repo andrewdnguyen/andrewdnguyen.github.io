@@ -19,3 +19,36 @@ html{
     zoom: 100%;
   }
 }
+
+.questcard{
+  background-color:transparent;
+  border:none;
+}
+
+.white-background{
+  background-color:#fff0;
+  border-bottom: none;
+}
+
+.invisible{
+  background-color:transparent;
+  border: none;
+}
+
+
+[data-toggle="collapse"]:after {
+display: inline-block;
+    display: inline-block;
+    color:yellow;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  content: "\f078";
+  transform: rotate(180deg) ;
+  transition: all linear 0.25s;
+  }
+[data-toggle="collapse"].collapsed:after {
+  transform: rotate(0deg) ;
+}
