@@ -1,0 +1,4 @@
+- Remove completion tab and replace with details tab at the beginning of main quests
+- Modules for skills?
+- Images for skills?
+- Story Quest not closing when others open
