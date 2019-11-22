@@ -1,5 +1,5 @@
 @font-face {font-family:"RuneScape UF Regular";src:url("runescape_uf.eot?") format("eot"),url("runescape_uf.woff") format("woff"),url("runescape_uf.ttf") format("truetype"),url("runescape_uf.svg#RuneScape-UF") format("svg");font-weight:normal;font-style:normal;}
-h5{
+h5,h4{
     font-family: 'Source Sans Pro', sans-serif;
   }
 
@@ -15,6 +15,11 @@ h5{
     width: 325px;
   }
   
+  .quote{
+    font-style: italic;
+    color: #767676;
+  }
+
   .home-button:hover{
     color:#fff;
     background-color: #333;
