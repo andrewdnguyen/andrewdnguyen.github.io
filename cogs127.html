@@ -52,7 +52,9 @@
               <video controls muted autoplay loop>
                 <source src="./src/Media1.mp4" type="video/mp4">
               </video>
-              <br><br>
+              <br>
+              <p class="quote">A quick runthrough of our proposed LinkedIn meetups feature.</p>
+              <br>
               Coming into my fourth and final year in college, I found myself spending a surprising amount of my time browsing and networking on LinkedIn as the pressure mounted for me to find post-graduate opportunities in the working world. As part of a class on data-driven user experience design, I was able to team up with Amaya Mali and Michelle Wan who were both in similar stages of their college careers and we decided to see if we could figure out a way to improve the platform’s networking experience using our own experiences as well as the experiences of other LinkedIn users like us: particularly those interested in seeking career opportunities in the tech industry. In the end, my team’s conclusion was to design a new plugin for LinkedIn’s messaging feature which would help facilitate meetups between users and their connections. As part of this project, one of my primary contributions was facilitating our team’s design discussions and user interviews. Taking the decisions and discoveries from these sessions, I was able to plan, execute, iterate, and justify several elements of our final design such as the creation process for meetup invitations as well as the process for editing them on the receiving end.
               <br><br><br>
               <h3>Necessary Needfinding</h3>
@@ -82,6 +84,8 @@
               <br><br>
               <img src="./src/test-subjects.png" style="width:100%;"></img>
               <br><br>
+              <p class="quote">For our initial research our participants included (from left to right): a student seeking internship opportunities, a former tech hiring manager, and a UCSD career peer educator.</p>
+              <br>
               From our sessions, we discovered two key pain points related to our primary issue and user goals which were the fact that:
               <br><br>
               </h4>
@@ -129,6 +133,8 @@
                 </a>
               </div>
               <br><br>
+              <p class="quote">We generated personas with the following motivations based on our initial research: an entreprenuer trying to get advice and find employees, a soon-to-be graduate looking for jobs, and a disgruntled employee seeking greener pastures.</p>
+              <br>
               <h3>Finding Some Role Models</h3>
               <br>
               While we felt that our problem statement would be best dealt with through the LinkedIn platform, we knew of several others which tackled many issues like the one addressed in our problem statement through various means. Hoping to glean some ideas for our solutions, we looked at several of LinkedIn’s competitors ranging from other social media to online job boards. 
@@ -137,10 +143,14 @@
               <br><br>
               <img src="./src/facebook-comp.png" style="width:40%;"></img>
               <br><br>
+              <p class="quote">Facebook's groups and events features were a large inspiration for some of our earlier prototypes which translated aspects of groups onto LinkedIn.</p>
+              <br>
               To get a better understanding of how we could get through to users using LinkedIn primarily as a career platform rather than a social one, we took a look at several competitors in that space such as Handshake, Glassdoor, and Indeed. From these platforms, some interesting implementation choices we found included the use of anonymity for providing career-related advice along with the use of relevant and interesting tags as a way to recommend potential opportunities and events. Many of these features would play a large role not only in the development of our early solution’s user flow but would also continue to inform us through future iterations, helping us address feedback and critique later down the line.
               <br><br>
               <img src="./src/networking-comp.png" style="width:100%;"></img>
               <br><br>
+              <p class="quote">Networking and event apps like Indeed, Glassdoor, and Eventbrite also played a role in some of our earlier idea formation due to their professional nature.</p>
+              <br>
               <h3>The Makings of a Model</h3>
               <br>
               With a tangible target audience and some inspiration from a few relevant apps, we went about laying the foundations for our solution through the development of two user flows which visualized distinct approaches to dealing with our problem statement. 
@@ -149,18 +159,26 @@
               <br><br>
               <img src="./src/whiteboard-a2.jpg" style="width:100%;"></img>
               <br><br>
+              <p class="quote">One of our initial prototypes involving groups on LinkedIn, on whiteboard.</p>
+              <br>
               Seeking to differentiate our approaches, our second flow was for a more intimate solution, allowing for users to schedule one-on-one meetups with potential recruiters and industry veterans. While much less directly inspired here, we modeled this flow off of some of the private messaging features of Facebook, Handshake, and even Indeed.
               <br><br>
               <img src="./src/whiteboard-b.jpg" style="width:100%;"></img>
               <br><br>
+              <p class="quote">Another one of our initial prototypes in which LinkedIn users could schedule meetups, also on whiteboard.</p>
+              <br>
               With potential solutions in mind, it was time for my group and I to put them into practice. Having already outlined our ideas on whiteboard while coming up with our UX flow, we translated our designs into a more interactive and portable paper form for testing and went out to gather feedback on our ideas.
               <br><br>
               <img src="./src/whiteboard-final.jpg" style="width:100%;"></img>
               <br><br>
+              <p class="quote">The finalized user flows for our prototypes prior to putting them onto paper for the first round of testing.</p>
+              <br>
               <h3>The Game Plan</h3>
               <br>
               <img src="./src/user-test.gif" style="width:50%; border-radius: 15px;"></img>
               <br><br>
+              <p class="quote">A quick peak at what our first round  of user testing looked like.</p>
+              <br>
               With paper prototypes in hand, we went about creating a plan for how we wanted users to go through them and the kinds of things we wanted to be on the lookout for. 
               <br><br>
               As our groups redesign flow was a broader redesign, we had users focus on three primary tasks: filtering for potential connections within a group, finding a relevant event and following its planner, and posting/managing an anonymous post. As part of our testing, some things we wanted to see were whether these group features would be relevant and meaningful for our target users as well as if the features would be overwhelming to novice users. 
@@ -173,14 +191,19 @@
               <br><br>
               <img src="./src/usertesting2.png" style="width:100%;"></img>
               <br><br>
+              <p class="quote">For our user testing, our participants included (from left to right): a social media group moderator, a web developer, and a research intern from a bioinformatics technology company.</p>
+              <br>
               For our groups redesign prototype, we learned from our user testing that many users were initially overwhelmed by the number of features we added as part of our redesign. Something we found interesting was that while most users had a brief initial struggle, many of them were able to use their knowledge of Facebook’s groups feature in order to reorient themselves. Users of LinkedIn who were already familiar with the app’s groups feature, a demographic which we weren’t able to capture in our prior interviews and observations, seemed to struggle more and were more vocal about being disoriented initially in our post-interview. Overall once users were oriented, however, they seemed to take an interest in the features offered by the new groups page and wanted some of them to be fleshed out further.
               <br><br>
               <img src="./src/taken-from-a.png" style="width:40%;"></img>
               <br><br>
+              <p class="quote">A messaging suggestions feature which made it to our final design. This feature was taken from the initial groups prototype.</p>
+              <br>
               During our testing sessions, we learned several interesting things about our meetups prototype as well. Being a single purpose plugin type solution, our testers felt much less overwhelmed going in, but as a consequence however, they struggled to discover the feature quickly. Users also felt that options for responders were rather limited and were sometimes confused by some of the semantic choices we made when labeling options and buttons. Compared to the previous prototype, however, our users generally felt that this approach was more proactive and was a much more interesting approach to networking. 
               <br><br>
               <img src="./src/taken-from-b.png" style="width:40%;"></img>
               <br><br>
+              <p class="quote">Building off of feedback, our final iteration of the meetups design used LinkedIn's messaging suggestions as a way of making our feature more discoverable.</p>
               Combining our field findings with similar feedback we received from classmates and our TA. We felt that our goal moving forward was to develop a solution that encouraged LinkedIn users to engage in conversations with new people and facilitated opportunities outside of the app to develop those conversations into meaningful relationships. We believed that this approach would lead to more between-connection engagement and create more tangible opportunities for users on the platform in real life. As such, we decided to move forward with our meetups idea as the main basis for our higher-fidelity solution, incorporating some of the features from our groups redesign particularly those which encouraged users to make connections with new people.
               <br><br>
               <h3>High-Fi(ve)</h3>
@@ -206,6 +229,8 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+              <br><br>
+              <p class="quote">A comparison of some of our screens as paper prototypes to their higher-fidelity Figma versions.</p>
               <br>
               For our higher fidelity solution prototype, we took the idea of being able to set up a direct invitation through messaging from our second user flow/paper prototype and expanded on it, we focused on making the overall experience more intuitive from our base paper prototype while also adding elements to help users get started with engaging with their connections. We did this by transferring a feature from our redesign prototype that allowed users to find and filter relevant connections within a group into a suggestions page that would help users find the people they would want to talk to and hopefully as a result eventually meet. We also worked on improving the overall visibility of the feature by providing users with more opportunities to discover it through LinkedIn’s messaging suggestions. 
               <br><br>
@@ -221,6 +246,8 @@
                   </video>
                 </div>
               </div>
+              <br><br>
+              <p class="quote">Our first alternative flow: A simple dropdown form vs. A more step-by-step meetups creation approach.</p>
               <br>
               For our second alternative, we created a flow which allowed for responding users to edit sent meetup requests rather than just being limited to the options of accepting or declining. Our goal for testing this change against the original binary option was to see whether it would lead to increased engagement between users on both ends of the meetup request or if it would simply be an extra step recipients would have to go through.
               <br><br>
@@ -234,6 +261,8 @@
                   </video>
                 </div>
               </div>
+              <br><br>
+              <p class="quote">Our second alternative flow: Providing users with the option to edit invitations rather than just canceling or scheduling a time.</p>
               <br>
               <h3>Feedback Two: Electric Boogaloo</h3>
               <br>
@@ -248,6 +277,8 @@
                 </div>
               </div>
               <br><br>
+              <p class="quote">An example of some aesthetic improvements we made following our second round of feedback.</p>
+              <br>
               <h3>Wrapping Things Up</h3>
               <br>
               Based on the feedback we received in our second round of testing, for our final version we focused primarily on cleaning up the prototype’s overall aesthetics (adjusting spacing, aligning components more closely with Google’s Material guidelines, etc.). On top of this, we added a few screens and views to our prototype which our users felt were missing from the overall flow such as the ability to view the meetup inviter’s calendar to schedule a time and more clearly separated the ignore/decline meetup options which was something that was brought up in both of our user testing waves.
@@ -263,6 +294,18 @@
                 </div>
               </div>
               <br><br>
+              <p class="quote">In making our higher-fidelity prototype we had overlooked including a feature for cancelling/ignoring an invitation. Based on prior feedback, we added it back to our prototype with improved options and functionality.</p>
+              <br>
+              <h3>Challenges and Potential Extension</h3>
+              <br>
+              One of the critical factors which would contribute to the success of this feature is whether or not LinkedIn users choose to engage with their connections in a way such that meetups become an option. If LinkedIn users opt to not communicate through the app's messaging system or are afraid to reach out to their connections, our meetups feature would most likely be undiscoverable and, eventually, forgotten. After wrapping up the redesign project, I went on and tried coming up with a way to encourage LinkedIn users to engage in messaging conversations with their connections. One of my solutions was to improve on LinkedIn's current message recommendation system and make it more customizable on the user's end. By providing users with a more flexible message recommendation system, users may be less afraid to start conversations and, as a result, more likely to get to the point in which they would be able to use our feature. 
+              <br><br>
+                <video controls muted autoplay loop>
+                  <source src="./src/Media5.mp4" type="video/mp4">
+                </video>
+              <br><br>
+              <p class="quote">An add-on feature to our final design which would help users create messaging templates to ease communication with their connections.</p>
+              <br>
               <h3>In Conclusion</h3>
               <br>
               Overall I learned a number of things over the course of this project, not just about the design process but also about the LinkedIn app itself and the design decisions made on it and various other similar apps. Something that this project really made me do was how to dig into products and applications more deeply. Despite having used LinkedIn for nearly two years, only while doing this project have I so closely looked at all the app has to offer both in its features and its design. I feel that this new way of looking at apps has contributed to my overall abilities as a designer. I also genuinely believe that my group and I did a good job at creating a feature that not only has the potential to give LinkedIn users a new and impactful option that they’ve never had before, but also one that looks and feels like it belongs on the platform. Like any designed feature, however, there is still plenty of room for testing, iteration, and improvement left. Without testing on multiple users at once for example, there’s no real way of being able to tell if this feature would truly work in practice and actually increase connection engagement. Should I be able to see that this feature is effective, I’d also love to be able to test this design with a larger target demographic to see if it would be helpful to people in non-tech industries. 
